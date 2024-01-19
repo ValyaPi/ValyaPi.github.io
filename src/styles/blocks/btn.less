@@ -1,0 +1,49 @@
+.btn{
+    display: inline-flex;
+    box-sizing: border-box;
+    padding: 15px 40px;
+    border: 1px solid #1f1e1e;
+    background-color: transparent;
+    outline: 0;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    overflow: hidden;
+    cursor: pointer;
+    min-height: 52px;
+    justify-content: center;
+    align-items: center;
+
+    &:active{
+        background-color: @black;
+        color: @white;
+    }
+
+    &:hover{
+        background-color: #1f1e1e;
+        color: #ffffff;
+    }
+
+    &--black{
+        width: 245.881px;
+        padding: 15px 40px;
+        align-items: center;
+    }
+
+    &--red{
+        background-color: @red;
+        border: transparent;
+        color: @white;
+        padding: 15px 40px;
+        align-items: center;
+
+        &--buy{
+            padding: 15px 131px;
+        }
+
+    }
+}
